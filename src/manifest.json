@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Redirectify-CERN",
-  "version": "0.1.0",
+  "version": "0.1.1",
 
   "description": "Redirects requests for PDFs of papers at some popular sites to their corresponding HTML index pages. This is a CERN-specific fork.",
 
