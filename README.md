@@ -1,4 +1,4 @@
-# Redirectify
+# Redirectify, CERN edition
 
 Links to academic papers in emails and on websites often point to the PDF of the
 paper. However, on sites like [arXiv](https://arxiv.org/), I'd much rather be
@@ -7,9 +7,13 @@ available in the PDF, such as the version history. I've given up trying to ask
 people not to deep-link to PDFs, and have instead written a browser extension to
 do what I want.
 
+Note that this project was shamelessly pilfered from
+[redirectify](https://github.com/imurray/redirectify), in the future
+the two may be merged.
+
 Install link: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/redirectify-cern/)
 
-This Firefox/Chrome extension redirects links to PDFs on arXiv, JMLR, NIPS,
+This Firefox extension redirects links to PDFs on CDS, Indico, arXiv, JMLR, NIPS,
 OpenReview and PMLR to an HTML index page, unless you clicked on the link from
 the hosting site. The Firefox version also handles PDFs on ACM and Semantic
 Scholar. Examples:
