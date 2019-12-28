@@ -30,7 +30,8 @@ RULES = [
     '.semanticscholar.org'],
   ["*://*.biorxiv.org/content*", /((.*\/)biorxiv\/|)(.*)(\.full\.pdf)(\?.*)?$/, '$2$3'],
   ["*://indico.cern.ch/event/*/attachments/*.pdf", /(.*)\/([a-z]*)\/(.*)\/attachments\/.*/, '$1/$2/$3'],
-  ["*://cds.cern.ch/record/*/files/*.pdf", /(.*)\/files\/.*/, '$1/files']
+  ["*://cds.cern.ch/record/*/files/*.pdf", /(.*)\/files\/.*/, '$1/files'],
+  ["*://*.m.wikipedia.org/*", /\.m\.wikipedia.org/, '.wikipedia.org']
 ];
 
 var browser = browser || chrome;

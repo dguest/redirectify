@@ -4,3 +4,6 @@
 
 # ignore temporary chrome thing
 *tmp_*/
+
+# ignore OSX crap
+.DS_Store

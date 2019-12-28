@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Redirectify-CERN",
-  "version": "0.1.2",
+  "version": "0.2.0",
 
   "description": "Redirects requests for PDFs of papers at some popular sites to their corresponding HTML index pages. This is a CERN-specific fork.",
 
@@ -22,6 +22,7 @@
     "*://*.biorxiv.org/content*",
     "*://indico.cern.ch/event/*/attachments/*.pdf",
     "*://cds.cern.ch/record/*/files/*.pdf",
+    "*://*.m.wikipedia.org/*",
     "webRequest",
     "webRequestBlocking"
   ],
